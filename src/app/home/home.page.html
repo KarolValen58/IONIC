@@ -1,0 +1,24 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="warning">
+    <ion-title>
+      Mundo Perruno
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" class="ion-padding" style="background-color: #fff5e6;">
+  <ion-header collapse="condense">
+    <ion-toolbar color="warning">
+      <ion-title size="large">¡Explora el Mundo de los Cachorros!</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div id="container" style="text-align: center; margin-top: 20px;">
+    <ion-icon name="paw" size="large" style="color: #8b4513;"></ion-icon>
+    <h1 style="font-weight: bold; color: #5d4037;">Bienvenido al Paraíso Perruno 🐕</h1>
+    <p style="color: #795548; font-size: 16px;">Descubre todo sobre nuestros amigos de cuatro patas y aprende a darles el mejor cuidado.</p>
+    <ion-button expand="block" color="warning" (click)="navigateTopage1()">
+      ¡Conoce a nuestros cachorros!
+    </ion-button>
+  </div>
+</ion-content>
